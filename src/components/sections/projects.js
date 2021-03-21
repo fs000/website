@@ -145,6 +145,7 @@ const Projects = () => {
               title
               tech
               github
+              gitlab
               external
             }
             html
@@ -165,7 +166,7 @@ const Projects = () => {
     revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
   }, []);
 
-  const GRID_LIMIT = 6;
+  const GRID_LIMIT = 4; // was 6
   const projects = data.projects.edges.filter(({ node }) => node);
   const firstSix = projects.slice(0, GRID_LIMIT);
   const projectsToShow = showMore ? projects : firstSix;
@@ -182,7 +183,7 @@ const Projects = () => {
         {projectsToShow &&
           projectsToShow.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { github, external, title, tech } = frontmatter;
+            const { github, gitlab, external, title, tech } = frontmatter;
 
             return (
               <CSSTransition
@@ -207,6 +208,11 @@ const Projects = () => {
                           {github && (
                             <a href={github} aria-label="GitHub Link">
                               <Icon name="GitHub" />
+                            </a>
+                          )}
+                          {gitlab && (
+                            <a href={gitlab} aria-label="GitLab Link">
+                              <Icon name="GitLab" />
                             </a>
                           )}
                           {external && (

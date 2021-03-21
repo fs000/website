@@ -30,7 +30,7 @@ const StyledHeroSection = styled.section`
 
   p {
     margin: 20px 0 0;
-    max-width: 500px;
+    max-width: 750px;
   }
 
   .email-link {
@@ -48,12 +48,12 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Flávio Santos.</h2>;
+  const three = <h3 className="big-heading">I create virtual worlds.</h3>;
   const four = (
     <p>
-      I'm a software engineer based in Boston, MA specializing in building (and occasionally
-      designing) exceptional websites, applications, and everything in between.
+      I'm a game developer from Lisbon, Portugal with a big focus on gameplay programming. <br />I
+      also have experience on other fields such as AI, sound design and modelling/animation!
     </p>
   );
   const five = (

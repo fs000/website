@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import styled from 'styled-components';
-import { srConfig } from '@config';
+import { srConfig, email } from '@config';
 import sr from '@utils/sr';
 
 const StyledAboutSection = styled.section`
@@ -21,7 +21,7 @@ const StyledAboutSection = styled.section`
 const StyledText = styled.div`
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-template-columns: repeat(2, minmax(140px, 220px));
     padding: 0;
     margin: 20px 0 0 0;
     overflow: hidden;
@@ -132,7 +132,18 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = [
+    'Unity',
+    'C# & C++',
+    'Git',
+    'Maya & Blender',
+    'Substance Painter',
+    'Photoshop & Illustrator',
+    'After Effects',
+    'JavaScript',
+    'Pro Tools (12)',
+    'Arduino',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,22 +152,27 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>Hello! I'm Flávio, a game developer based in Lisbon, Portugal.</p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              I have an immense passion for creating games from both a technological and artistic
+              point of view. This makes it my goal to provide incredible and everlasting
+              experiences, while keeping the systems behind them as performant as possible.
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              I'm currently finishing my graduation at{' '}
+              <a href="https://www.ulusofona.pt/en/">Lusófona University</a>, in which I've
+              developed several applications throughout the last 3 years, ranging from mobile apps,
+              AR apps, VR games and even a fully fledged online multiplayer FPS.
             </p>
 
-            <p>Here are a few technologies I've been working with recently:</p>
+            <p>
+              I am finishing an internship to complete my degree, but{' '}
+              <a href={`mailto:${email}`}>hit me up</a> anyways if you like what you see here!
+            </p>
+
+            <p>Here are a few tools I've worked with:</p>
           </div>
 
           <ul className="skills-list">

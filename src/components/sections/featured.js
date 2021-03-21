@@ -255,6 +255,7 @@ const Featured = () => {
               }
               tech
               github
+              gitlab
               external
             }
             html
@@ -276,14 +277,14 @@ const Featured = () => {
   return (
     <section id="projects">
       <h2 className="numbered-heading" ref={revealTitle}>
-        Some Things I’ve Built
+        Some Games I've Worked On
       </h2>
 
       <div>
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover } = frontmatter;
+            const { external, title, tech, github, gitlab, cover } = frontmatter;
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -306,6 +307,11 @@ const Featured = () => {
                         <Icon name="GitHub" />
                       </a>
                     )}
+                    {gitlab && (
+                      <a href={gitlab} aria-label="GitLab Link">
+                        <Icon name="GitLab" />
+                      </a>
+                    )}
                     {external && (
                       <a href={external} aria-label="External Link">
                         <Icon name="External" />
@@ -315,7 +321,7 @@ const Featured = () => {
                 </div>
 
                 <div className="project-image">
-                  <a href={external ? external : github ? github : '#'}>
+                  <a href={external ? external : github ? github : gitlab ? gitlab : '#'}>
                     <Img fluid={cover.childImageSharp.fluid} alt={title} className="img" />
                   </a>
                 </div>

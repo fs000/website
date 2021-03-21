@@ -167,6 +167,7 @@ const ArchivePage = ({ location, data }) => {
                   const {
                     date,
                     github,
+                    gitlab,
                     external,
                     ios,
                     android,
@@ -200,6 +201,11 @@ const ArchivePage = ({ location, data }) => {
                           {external && (
                             <a href={external} aria-label="External Link">
                               <Icon name="External" />
+                            </a>
+                          )}
+                          {gitlab && (
+                            <a href={gitlab} aria-label="GitLab Link">
+                              <Icon name="GitLab" />
                             </a>
                           )}
                           {github && (
@@ -249,6 +255,7 @@ export const pageQuery = graphql`
             title
             tech
             github
+            gitlab
             external
             ios
             android

@@ -4,7 +4,7 @@ import { srConfig, email } from '@config';
 import sr from '@utils/sr';
 
 const StyledContactSection = styled.section`
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto 100px;
   text-align: center;
 
@@ -51,8 +51,10 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        Although I'm not currently looking for any new opportunities, my inbox is always open.
-        Whether you have a question or just want to say hi, I'll try my best to get back to you!
+        My inbox is always open!
+        <br />
+        If you need a person to handle the logic and systems behind your product, I might just be
+        your guy.
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
