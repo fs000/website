@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import styled from 'styled-components';
-import { srConfig, email } from '@config';
+import { srConfig } from '@config';
 import sr from '@utils/sr';
 
 const StyledAboutSection = styled.section`
@@ -140,7 +140,7 @@ const About = () => {
     'Substance Painter',
     'Photoshop & Illustrator',
     'After Effects',
-    'JavaScript',
+    'JavaScript & HTML',
     'Pro Tools (12)',
     'Arduino',
   ];
@@ -152,7 +152,9 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Flávio, a game developer based in Lisbon, Portugal.</p>
+            <p>
+              Hello! I'm Flávio, a Junior Developer and Game Programmer based in Lisbon, Portugal.
+            </p>
 
             <p>
               I have an immense passion for creating games from both a technological and artistic
@@ -162,14 +164,9 @@ const About = () => {
 
             <p>
               I'm currently finishing my graduation at{' '}
-              <a href="https://www.ulusofona.pt/en/">Lusófona University</a>, in which I've
-              developed several applications throughout the last 3 years, ranging from mobile apps,
-              AR apps, VR games and even a fully fledged online multiplayer FPS.
-            </p>
-
-            <p>
-              I am finishing an internship to complete my degree, but{' '}
-              <a href={`mailto:${email}`}>hit me up</a> anyways if you like what you see here!
+              <a href="https://www.ulusofona.pt/en/">Lusófona University</a>, in which I developed
+              several applications throughout the last 4 years, ranging from mobile apps, AR apps,
+              VR games and even a fully fledged online multiplayer FPS.
             </p>
 
             <p>Here are a few tools I've worked with:</p>

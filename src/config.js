@@ -18,10 +18,6 @@ module.exports = {
       name: 'Twitter',
       url: 'https://twitter.com/M3T4L_455',
     },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/flaviojrtbsantos',
-    },
   ],
 
   navLinks: [
@@ -34,7 +30,7 @@ module.exports = {
       url: '/#jobs',
     },
     {
-      name: 'Work',
+      name: 'Projects',
       url: '/#projects',
     },
     {
