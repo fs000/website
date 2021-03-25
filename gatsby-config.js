@@ -5,7 +5,7 @@ module.exports = {
     title: 'Flávio Santos',
     description:
       'Flávio Santos is a Game Programmer specialized in building the systems necessary to support great worlds.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    siteUrl: 'https://flaviosantos.tech', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@M3T4L_455',
   },
