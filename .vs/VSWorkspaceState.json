@@ -2,13 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\content",
-    "\\content\\projects",
-    "\\content\\projects\\images",
     "\\src",
     "\\src\\components",
+    "\\src\\components\\icons",
     "\\src\\components\\sections",
     "\\static"
   ],
-  "SelectedNode": "\\content\\jobs",
+  "SelectedNode": "\\content\\projects",
   "PreviewInSolutionExplorer": false
 }
