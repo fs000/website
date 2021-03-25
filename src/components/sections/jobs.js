@@ -7,7 +7,9 @@ import { KEY_CODES } from '@utils';
 import sr from '@utils/sr';
 
 const StyledJobsSection = styled.section`
-  max-width: 700px;
+  max-width: 900px;
+  margin-top: 200px;
+  margin-bottom: 180px;
 
   .inner {
     display: flex;

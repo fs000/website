@@ -7,6 +7,8 @@ const StyledContactSection = styled.section`
   max-width: 800px;
   margin: 0 auto 100px;
   text-align: center;
+  margin-top: 200px;
+  margin-bottom: 180px;
 
   @media (max-width: 768px) {
     margin: 0 auto 50px;

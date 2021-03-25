@@ -1,9 +1,9 @@
 ---
 date: '2018'
 title: 'Last Days'
-github: ''
-gitlab: 'https://gitlab.com/xShadoWalkeR/sentient-show'
-external: 'https://octoprofile.now.sh'
+github: 'https://github.com/serapinta/Last-Days'
+gitlab: ''
+external: ''
 ios: ''
 android: ''
 tech:
