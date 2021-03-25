@@ -65,8 +65,8 @@ const StyledNav = styled.nav`
 
     a {
       color: var(--yellow);
-      width: 42px;
-      height: 42px;
+      width: 60px;
+      height: 60px;
 
       &:hover,
       &:focus {
@@ -186,8 +186,7 @@ const Nav = ({ isHome }) => {
                 ))}
             </TransitionGroup>
           </ol>
-
-          <TransitionGroup component={null}>
+          {/*<TransitionGroup component={null}>
             {isMounted && (
               <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                 <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
@@ -197,7 +196,8 @@ const Nav = ({ isHome }) => {
                 </div>
               </CSSTransition>
             )}
-          </TransitionGroup>
+          </TransitionGroup>*/}{' '}
+          {/*-------------------------------------------->UNCOMMENT TO ACTIVATE RESUME/CV BUTTON!!!*/}
         </StyledLinks>
 
         <TransitionGroup component={null}>
