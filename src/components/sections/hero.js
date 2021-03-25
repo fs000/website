@@ -52,8 +52,8 @@ const Hero = () => {
   const three = <h3 className="big-heading">I create virtual worlds.</h3>;
   const four = (
     <p>
-      I'm a game developer from Lisbon, Portugal with a big focus on gameplay programming. <br />I
-      also have experience on other fields such as AI, sound design and modelling/animation!
+      I'm a Junior Developer from Lisbon, Portugal with a big passion for Gameplay Programming.{' '}
+      <br />I also have experience on other fields such as AI, AR and VR!
     </p>
   );
   const five = (

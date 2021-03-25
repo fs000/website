@@ -14,10 +14,10 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/fl%C3%A1vio-santos-5ba5251a3',
     },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/M3T4L_455',
-    },
+    //{
+    //  name: 'Twitter',
+    //  url: 'https://twitter.com/M3T4L_455',
+    //},
   ],
 
   navLinks: [

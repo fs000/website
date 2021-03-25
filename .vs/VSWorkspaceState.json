@@ -2,6 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\content",
+    "\\content\\jobs",
     "\\src",
     "\\src\\components",
     "\\src\\components\\icons",
@@ -9,6 +10,6 @@
     "\\src\\styles",
     "\\static"
   ],
-  "SelectedNode": "\\src\\components\\icons\\gitlab.js",
+  "SelectedNode": "\\content\\jobs",
   "PreviewInSolutionExplorer": false
 }

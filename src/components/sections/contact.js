@@ -53,8 +53,9 @@ const Contact = () => {
       <p>
         My inbox is always open!
         <br />
-        If you need a person to handle the logic and systems behind your product, I might just be
-        your guy.
+        <br />
+        If you need a person to handle the logic and systems
+        <br /> behind your product, I might just be your guy.
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
