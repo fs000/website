@@ -3,7 +3,7 @@ date: '2017-09-15'
 title: 'Student'
 company: 'Lusófona University'
 location: 'Lisbon, PT'
-range: 'September 2017 - March 2021'
+range: 'September 2017 - April 2021'
 url: 'https://www.ulusofona.pt/undergraduate/videogames'
 ---
 

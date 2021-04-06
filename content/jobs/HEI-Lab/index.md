@@ -3,7 +3,7 @@ date: '2017-12-09'
 title: 'Software Intern'
 company: 'HEI-Lab'
 location: 'Lisbon, PT'
-range: 'December 2020 - March 2021'
+range: 'December 2020 - April 2021'
 url: 'https://hei-lab.ulusofona.pt/'
 ---
 
