@@ -186,18 +186,19 @@ const Nav = ({ isHome }) => {
                 ))}
             </TransitionGroup>
           </ol>
-          {/*<TransitionGroup component={null}>
-            {isMounted && (
-              <CSSTransition classNames={fadeDownClass} timeout={timeout}>
-                <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
-                  <a href="/resume.pdf" className="resume-button">
-                    Resume
-                  </a>
-                </div>
-              </CSSTransition>
-            )}
-          </TransitionGroup>*/}{' '}
-          {/*-------------------------------------------->UNCOMMENT TO ACTIVATE RESUME/CV BUTTON!!!*/}
+          {
+            <TransitionGroup component={null}>
+              {isMounted && (
+                <CSSTransition classNames={fadeDownClass} timeout={timeout}>
+                  <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
+                    <a href="/resume.pdf" className="resume-button">
+                      Resume
+                    </a>
+                  </div>
+                </CSSTransition>
+              )}
+            </TransitionGroup>
+          }{' '}
         </StyledLinks>
 
         <TransitionGroup component={null}>
