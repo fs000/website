@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
+  <img alt="Logo" src="https://raw.githubusercontent.com/fs000/website/main/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
   flaviosantos.tech
@@ -11,8 +11,8 @@
   Forked and altered from <a href="https://github.com/bchiang7/v4">Brittany Chiang</a>
 </p>
 <p align="center">
-  <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
+  <a href="https://app.netlify.com/sites/inspiring-mclean-72ea17/deploys" target="_blank">
+    <img src="https://api.netlify.com/api/v1/badges/ac8c6e7f-d45a-4284-b8d1-295d420f388a/deploy-status" alt="Netlify Status" />
   </a>
 </p>
 
