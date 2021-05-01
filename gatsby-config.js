@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Flávio Santos',
     description:
-      'Flávio Santos is a Game Programmer specialized in building the systems necessary to support great worlds.',
+      'My website with most of my work during University and some of my personal projects. Also contains my contact info, links and resume.',
     siteUrl: 'https://flaviosantos.tech', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@M3T4L_455',
