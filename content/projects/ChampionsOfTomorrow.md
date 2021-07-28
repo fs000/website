@@ -3,7 +3,7 @@ date: '2020-06-01'
 title: 'Champions of Tomorrow'
 github: ''
 gitlab: 'https://gitlab.com/xShadoWalkeR/sentient-show'
-external: ''
+external: 'https://xshadowalker.itch.io/champions-of-tomorrow'
 ios: ''
 android: ''
 tech:

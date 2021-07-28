@@ -3,7 +3,7 @@ date: '2019'
 title: 'Who Wants To Be A Mathematician'
 github: 'https://github.com/fs000/Interfaces_Quiz'
 gitlab: ''
-external: ''
+external: 'https://xshadowalker.itch.io/quem-quer-ser-matemtico'
 ios: ''
 android: ''
 tech:

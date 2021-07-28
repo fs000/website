@@ -9,7 +9,7 @@ android: 'https://play.google.com/store/apps/details?id=com.UniversidadeLusfona.
 tech:
   - Unity
   - C#
-company: 'HEI-Lab'
+company: 'MovLab'
 showInProjects: false
 ---
 

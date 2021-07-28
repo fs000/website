@@ -1,10 +1,10 @@
 ---
 date: '2017-12-09'
 title: 'Software Intern'
-company: 'HEI-Lab'
+company: 'MovLab'
 location: 'Lisbon, PT'
 range: 'December 2020 - April 2021'
-url: 'https://hei-lab.ulusofona.pt/'
+url: 'https://movlab.ulusofona.pt/'
 ---
 
 - Created and managed a project which served to increase tourist interest in [Óbidos](https://sites.google.com/view/museusdeobidos/museus-de-%C3%B3bidos)

@@ -3,7 +3,7 @@ date: '6'
 title: 'Champions of Tomorrow'
 cover: './champions.png'
 gitlab: 'https://gitlab.com/xShadoWalkeR/sentient-show'
-external: ''
+external: 'https://xshadowalker.itch.io/champions-of-tomorrow'
 tech:
   - Unity
   - Photon(PUN 2)

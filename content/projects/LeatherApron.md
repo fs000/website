@@ -3,7 +3,7 @@ date: '2019-06-28'
 title: 'Leather Apron'
 github: ''
 gitlab: 'https://gitlab.com/xShadoWalkeR/LeatherAppron'
-external: 'https://drive.google.com/drive/folders/16eHleF6txDO3d2RbZA061sze3D0Sj6f-?usp=sharing'
+external: 'https://xshadowalker.itch.io/leather-apron'
 ios: ''
 android: ''
 tech:

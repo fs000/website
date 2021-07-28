@@ -3,7 +3,7 @@ date: '2018'
 title: 'Last Days'
 github: 'https://github.com/serapinta/Last-Days'
 gitlab: ''
-external: ''
+external: 'https://xshadowalker.itch.io/last-days'
 ios: ''
 android: ''
 tech:
